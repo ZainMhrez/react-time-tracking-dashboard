@@ -12,8 +12,8 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: ()
-- Live Site URL: ()
+- Solution URL: (https://github.com/ZainMhrez/react-time-tracking-dashboard)
+- Live Site URL: (https://zainmhrez.github.io/react-time-tracking-dashboard/)
 
 ## Built with
 
