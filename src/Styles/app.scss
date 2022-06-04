@@ -1,0 +1,47 @@
+@import "./variables";
+@import "./profile";
+@import "./boxes";
+
+/* Global styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  background: var(--body-bg);
+  font-family: "Rubik", sans-serif;
+  color: white;
+}
+
+.container {
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1,
+h2,
+h3,
+p {
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+/* Media Queries */
+@media (max-width: 1170px) {
+  .container {
+    width: 95vw;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+}
