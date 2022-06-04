@@ -8,7 +8,7 @@ const Boxes = ({ timeframe }) => {
   /* Get data from JSON file  */
   useEffect(() => {
     axios
-      .get("/data.json")
+      .get("data.json")
       .then((data) => {
         setValues(data.data);
       })
